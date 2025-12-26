@@ -1,0 +1,26 @@
+[
+    {
+        "Person_ID": 101,
+        "Amount": 25000.0,
+        "Type": "income",
+        "Category": "Salary",
+        "Date": "January 5, 2025",
+        "Description": "Monthly Salary"
+    },
+    {
+        "Person_ID": 102,
+        "Amount": 4000.0,
+        "Type": "expense",
+        "Category": "Grocery",
+        "Date": "January 7, 2025",
+        "Description": "Weekly grocery shoping"
+    },
+    {
+        "Person_ID": 103,
+        "Amount": 1200.0,
+        "Type": "expense",
+        "Category": "Transport",
+        "Date": "December 4,2025",
+        "Description": "Fuel refill"
+    }
+]

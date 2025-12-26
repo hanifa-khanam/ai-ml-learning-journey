@@ -1,0 +1,12 @@
+2025-12-02 17:39:56,326 - INFO - Program started
+2025-12-02 17:39:56,326 - ERROR - An error occurred
+2025-12-02 17:41:15,446 - DEBUG - Debug message
+2025-12-02 17:41:15,447 - INFO - Info message
+2025-12-02 17:41:15,447 - WARNING - Warning!
+2025-12-02 17:41:15,448 - ERROR - Error!
+2025-12-02 17:48:41,463 - ERROR - An error occurred
+Traceback (most recent call last):
+  File "C:\Users\khanz\AppData\Local\Temp\ipykernel_8880\3477174486.py", line 2, in <module>
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero

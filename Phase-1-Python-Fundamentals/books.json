@@ -1,0 +1,16 @@
+{
+    "science": [
+        "Biology",
+        "Chemistry",
+        "Physics",
+        "Computer Science"
+    ],
+    "arts": [
+        "Islamiyat",
+        "Urdu",
+        "English"
+    ],
+    "programming": [
+        "Python Fundamentals"
+    ]
+}

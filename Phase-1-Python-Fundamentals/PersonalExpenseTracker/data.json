@@ -1,0 +1,154 @@
+[
+    {
+        "Person_ID": 102,
+        "Amount": 1200.0,
+        "Type": "expense",
+        "Category": "Food",
+        "Description": "Groceries from supermarket",
+        "Date": "2026-01-06 13:40:10"
+    },
+    {
+        "Person_ID": 103,
+        "Amount": 800.0,
+        "Type": "expense",
+        "Category": "Transport",
+        "Description": "Monthly fuel expense",
+        "Date": "2026-01-07 08:25:30"
+    },
+    {
+        "Person_ID": 104,
+        "Amount": 3000.0,
+        "Type": "income",
+        "Category": "Freelancing",
+        "Description": "Website design project payment",
+        "Date": "2026-01-10 21:10:45"
+    },
+    {
+        "Person_ID": 105,
+        "Amount": 1500.0,
+        "Type": "expense",
+        "Category": "Shopping",
+        "Description": "Clothes shopping",
+        "Date": "2026-01-12 16:50:00"
+    },
+    {
+        "Person_ID": 106,
+        "Amount": 700.0,
+        "Type": "expense",
+        "Category": "Entertainment",
+        "Description": "Movie and snacks",
+        "Date": "2026-01-15 19:30:15"
+    },
+    {
+        "Person_ID": 107,
+        "Amount": 2500.0,
+        "Type": "income",
+        "Category": "Tuition",
+        "Description": "Tuition fee collected",
+        "Date": "2026-01-18 11:20:40"
+    },
+    {
+        "Person_ID": 108,
+        "Amount": 900.0,
+        "Type": "expense",
+        "Category": "Bills",
+        "Description": "Electricity bill payment",
+        "Date": "2026-01-20 10:05:50"
+    },
+    {
+        "Person_ID": 109,
+        "Amount": 600.0,
+        "Type": "expense",
+        "Category": "Food",
+        "Description": "Restaurant dinner",
+        "Date": "2026-02-02 14:12:35"
+    },
+    {
+        "Person_ID": 110,
+        "Amount": 4000.0,
+        "Type": "income",
+        "Category": "Salary",
+        "Description": "Monthly salary received",
+        "Date": "2026-02-05 09:00:00"
+    },
+    {
+        "Person_ID": 111,
+        "Amount": 1300.0,
+        "Type": "expense",
+        "Category": "Shopping",
+        "Description": "Purchased shoes and accessories",
+        "Date": "2026-02-08 17:44:22"
+    },
+    {
+        "Person_ID": 112,
+        "Amount": 750.0,
+        "Type": "expense",
+        "Category": "Transport",
+        "Description": "Ride-sharing expenses",
+        "Date": "2026-02-10 08:35:12"
+    },
+    {
+        "Person_ID": 113,
+        "Amount": 2800.0,
+        "Type": "income",
+        "Category": "Freelancing",
+        "Description": "Python automation project",
+        "Date": "2026-02-12 20:11:08"
+    },
+    {
+        "Person_ID": 114,
+        "Amount": 500.0,
+        "Type": "expense",
+        "Category": "Entertainment",
+        "Description": "Gaming subscription",
+        "Date": "2026-02-15 18:20:55"
+    },
+    {
+        "Person_ID": 115,
+        "Amount": 1100.0,
+        "Type": "expense",
+        "Category": "Bills",
+        "Description": "Internet and mobile bills",
+        "Date": "2026-02-18 12:30:25"
+    },
+    {
+        "Person_ID": 116,
+        "Amount": 3200.0,
+        "Type": "income",
+        "Category": "Business",
+        "Description": "Small business revenue",
+        "Date": "2026-03-01 15:00:45"
+    },
+    {
+        "Person_ID": 117,
+        "Amount": 1400.0,
+        "Type": "expense",
+        "Category": "Food",
+        "Description": "Monthly grocery shopping",
+        "Date": "2026-03-03 13:18:33"
+    },
+    {
+        "Person_ID": 118,
+        "Amount": 850.0,
+        "Type": "expense",
+        "Category": "Transport",
+        "Description": "Petrol refill",
+        "Date": "2026-03-05 07:50:17"
+    },
+    {
+        "Person_ID": 119,
+        "Amount": 950.0,
+        "Type": "expense",
+        "Category": "Health",
+        "Description": "Medical checkup and medicines",
+        "Date": "2026-03-08 11:40:29"
+    },
+    {
+        "Person_ID": 120,
+        "Amount": 2100.0,
+        "Type": "income",
+        "Category": "Tuition",
+        "Description": "Private tuition classes",
+        "Date": "2026-03-10 10:10:10"
+    }
+]

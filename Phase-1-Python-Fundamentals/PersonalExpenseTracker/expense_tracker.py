@@ -1,6 +1,7 @@
 import json
 from transactions import Transaction
 import logging
+import csv
 
 # Configure logging
 logging.basicConfig(
@@ -29,7 +30,7 @@ class ExpenseTracker:
         Add a Transaction object to the tracker.
         """
         self.transactions.append(transaction)
-        print(f"Transaction {transaction.id} added successfully!")
+        print(f"Transaction {transaction.transaction_id} added successfully!")
         
     
     
@@ -68,12 +69,12 @@ class ExpenseTracker:
                 data = json.load(f)
                 for item in data:
                     t = Transaction(
-                        id=item["Person_ID"], 
+                        transaction_id=item["Person_ID"], 
                         amount=item["Amount"], 
                         transaction_type=item["Type"], 
                         category=item["Category"],
-                        date=item["Date"],
-                        description=item["Description"]
+                        description=item["Description"],
+                        date=item["Date"]
                     )
                     self.transactions.append(t)
                 print("Data Loaded Successfully!")
@@ -90,7 +91,7 @@ class ExpenseTracker:
         Delete a transaction by ID.
         """
         for t in self.transactions:
-            if t.id == transaction_id:
+            if t.transaction_id == transaction_id:
                 self.transactions.remove(t)
                 print(f"Transaction {transaction_id} deleted successfully!")
                 return
@@ -102,7 +103,7 @@ class ExpenseTracker:
         Update fields of a transaction by ID.
         """
         for t in self.transactions:
-            if t.id == transaction_id:
+            if t.transaction_id == transaction_id:
                 print("Transaction found:", t)
                 
                 # Ask which fields to update
@@ -117,10 +118,6 @@ class ExpenseTracker:
                 new_category = input("Enter new category (leave blank to keep current): ")
                 if new_category:
                     t.category = new_category
-                
-                new_date = input("Enter new date (leave blank to keep current): ")
-                if new_date:
-                    t.date = new_date
                 
                 new_description = input("Enter new description (leave blank to keep current): ")
                 if new_description:
@@ -162,5 +159,54 @@ class ExpenseTracker:
 
 
 
-           
-              
+    def save_to_csv(self, filename="data.csv"):
+        """
+            Save all tansactions to a csv file (for pandas & visualization)
+        """
+        
+        try:
+            with open(filename, mode="w", newline="") as file:
+                writer = csv.DictWriter(file, fieldnames=[
+                    "Person_ID",
+                    "Amount", 
+                    "Type",
+                    "Category",
+                    "Description",
+                    "Date"
+                ])
+                
+                writer.writeheader()
+                
+                for t in self.transactions:
+                    writer.writerow(t.to_dict())
+                    
+                print("CSV data saved successfully!")
+                
+        except Exception as e:
+            print("Error saving CSV: ", e)
+            
+        
+        
+    def load_from_csv(self, filename="data.csv"):
+        """
+            Load Transactions from CSV file
+        """
+        try:
+            with open(filename, mode="r") as file:
+                reader = csv.DictReader(file)
+                
+                for row in reader:
+                    t = Transaction(
+                        transaction_id=int(row["Person_ID"]),
+                        amount=float(row["Amount"]),
+                        transaction_type=row["Type"],
+                        category=row["Category"],
+                        description=row["Description"],
+                        date=row["Date"]
+                    )
+                    
+                    self.transactions.append(t)
+                
+                print("CSV data loaded successfully!")
+        except FileNotFoundError:
+            print("No CSV file Found.")

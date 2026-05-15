@@ -1,0 +1,20 @@
+Person_ID,Amount,Type,Category,Description,Date
+102,1200.0,expense,Food,Groceries from supermarket,2026-01-06 13:40:10
+103,800.0,expense,Transport,Monthly fuel expense,2026-01-07 08:25:30
+104,3000.0,income,Freelancing,Website design project payment,2026-01-10 21:10:45
+105,1500.0,expense,Shopping,Clothes shopping,2026-01-12 16:50:00
+106,700.0,expense,Entertainment,Movie and snacks,2026-01-15 19:30:15
+107,2500.0,income,Tuition,Tuition fee collected,2026-01-18 11:20:40
+108,900.0,expense,Bills,Electricity bill payment,2026-01-20 10:05:50
+109,600.0,expense,Food,Restaurant dinner,2026-02-02 14:12:35
+110,4000.0,income,Salary,Monthly salary received,2026-02-05 09:00:00
+111,1300.0,expense,Shopping,Purchased shoes and accessories,2026-02-08 17:44:22
+112,750.0,expense,Transport,Ride-sharing expenses,2026-02-10 08:35:12
+113,2800.0,income,Freelancing,Python automation project,2026-02-12 20:11:08
+114,500.0,expense,Entertainment,Gaming subscription,2026-02-15 18:20:55
+115,1100.0,expense,Bills,Internet and mobile bills,2026-02-18 12:30:25
+116,3200.0,income,Business,Small business revenue,2026-03-01 15:00:45
+117,1400.0,expense,Food,Monthly grocery shopping,2026-03-03 13:18:33
+118,850.0,expense,Transport,Petrol refill,2026-03-05 07:50:17
+119,950.0,expense,Health,Medical checkup and medicines,2026-03-08 11:40:29
+120,2100.0,income,Tuition,Private tuition classes,2026-03-10 10:10:10

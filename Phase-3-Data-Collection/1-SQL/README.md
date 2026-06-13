@@ -1,24 +1,11 @@
-#  SQL for Data Collection & Analytics
+# SQL
 
-This repository contains structured SQL practice files focused on database design, querying, and performance optimization.  
-It is part of my AI/ML learning journey, specifically for mastering **data collection and data preparation**.
+This folder contains SQL practice for data collection and analytics workflows.
 
----
-
-##  Topics Covered
-
--  DDL (Data Definition Language)
--  DML (Data Manipulation Language)
--  DQL (Data Query Language)
--  Joins
--  Subqueries
--  Indexes
--  TCL (Transaction Control Language)
--  Assignment & Practice Queries
--  Constraints (DC)
-
-
----
+## Coverage
+- DDL, DML, DQL, DCL, and TCL basics
+- Joins, subqueries, and constraints
+- Practice queries for analysis use cases
 
 ##  Types of SQL Queries
 
@@ -30,32 +17,5 @@ It is part of my AI/ML learning journey, specifically for mastering **data colle
 | DCL | Data Control Language | Controls user permissions | `GRANT`, `REVOKE` |
 | TCL | Transaction Control Language | Manages transactions and data consistency | `COMMIT`, `ROLLBACK`, `SAVEPOINT` |
 
----
-
-##  Learning Objective
-
-- Build strong database fundamentals  
-- Understand how real-world applications store and retrieve data  
-- Prepare for backend development & machine learning data pipelines  
-
----
-
-##  Tools Used
-
-- MySQL / PostgreSQL  
-- VS Code  
-- Git & GitHub  
-
----
-
-##  Why This Matters
-
-Efficient SQL skills are essential for:
-- Data Analysis  
-- Backend Engineering  
-- Machine Learning Pipelines  
-- Real-world production systems  
-
----
-
-Consistent practice. Clean queries. Optimized performance.
+## Outcome
+Ability to query, clean, and prepare relational data for analytics and ML pipelines.

@@ -1,42 +1,12 @@
-#  Seaborn Visualization
+# Seaborn
 
-## Overview
-This directory contains a collection of Seaborn learning notebooks focused on **statistical data visualization** and **Exploratory Data Analysis (EDA)** using Python.
+This folder contains Seaborn notebooks for statistical visualization and exploratory data analysis.
 
-Seaborn is built on top of Matplotlib and provides a high-level interface for drawing attractive and informative statistical graphics. It is an essential tool for understanding data patterns before applying Machine Learning models.
-
----
-
-##  Notebook Contents
-
-### 🔹 Seaborn Tutorial
-* Introduction to the Seaborn library.
-* Working with built-in datasets (e.g., `tips`, `iris`, `titanic`).
-* Basic plotting structure and aesthetics.
-* Understanding key parameters: `hue`, `style`, and `size`.
-
-### 🔹 Relational Plots
-* `scatterplot()`: Visualizing the relationship between numerical variables.
-* `lineplot()`: Identifying trends over continuous data or time series.
-* Analysis of correlation and data patterns.
-
-### 🔹 Categorical Plots
-* `countplot()`: Showing the frequency of categories.
-* `barplot()`: Comparing average values across categories.
-* `boxplot()`: Identifying distributions and detecting outliers.
-* `violinplot()`: Visualizing the shape of the distribution and density.
-
-### 🔹 Distribution Plots
-* `histplot()`: Analyzing frequency distribution.
-* `kdeplot()`: Visualizing probability density curves.
-* `displot()`: Advanced visualization for data spread and skewness.
-
-### 🔹 Matrix Plots (Heatmaps)
-* `heatmap()`: Correlation matrix visualization.
-* Feature relationship analysis.
-* **Multicollinearity detection** for feature selection.
-
----
+## Coverage
+- Relational plots: scatter and line
+- Categorical plots: count, bar, box, violin
+- Distribution plots: histogram and KDE
+- Matrix plots: heatmaps and correlation views
 
 ##  When to Use Each Plot?
 
@@ -52,4 +22,6 @@ Seaborn is built on top of Matplotlib and provides a high-level interface for dr
 | **KDE Plot** | Understand probability density |
 | **Heatmap** | Analyze correlation between numerical features |
 
----
+
+## Outcome
+Ability to quickly identify trends, distributions, and feature relationships in datasets.
